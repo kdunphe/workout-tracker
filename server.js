@@ -22,10 +22,6 @@ app.use(apiRoutes);
 // HTML Routes
 app.use(htmlRoutes);
 
-app.get("/", function(req, res) {
-    res.render("index");
-});
-
 // Start the Server
 app.listen(PORT, () => {
 	console.log(`App running on port ${PORT}!`);
