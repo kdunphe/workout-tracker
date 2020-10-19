@@ -12,9 +12,9 @@ const app = express();
 
 // Set Up App
 app.use(logger('dev'));
+app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static('public'));
 
 // API Routes
 app.use(apiRoutes);
