@@ -4,19 +4,16 @@
 
 <h2>Overview</h2>
 
-**Deployed Site:** 
+**Deployed Site:** https://kd-workout-tracker.herokuapp.com/
 
-**Technologies Used:** 
+**Technologies Used:** Node.js, Express, MongoDB, Mongoose, Morgan, Heroku, HTML, CSS
 
 **Contact:** <a href="mailto:kayla.dunphe@gmail.com">kayla.dunphe@gmail.com</a>
 
-**Goal:** Create a workout tracker.
+**Goal:** Create a workout tracker with a dashboard to track progress.
 
 
-_**The work day scheduler includes:**_
-* Info here
+<h2>Screenshots</h2>
 
-
-<h2>Screenshot</h2>
-
-![WorkoutTracker](/assets/workouttracker.jpg)
+![workouttracker](./public/assets/workouttracker.png)
+![dashboard](./public/assets/dashboard.png)
