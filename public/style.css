@@ -435,3 +435,10 @@ form > button {
     right: -320px;
   }
 }
+
+footer {
+  background-color: #5793fd;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
