@@ -15,10 +15,10 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // API Routes
-app.use(apiRoutes);
+app.use("/api", apiRoutes);
 
 // HTML Routes
-app.use(htmlRoutes);
+app.use("/", htmlRoutes);
 
 // Database Connection
 mongoose.connect(
